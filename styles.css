@@ -20,11 +20,10 @@ body {
     text-align: center;
 }
 
-#title {
-    font-family: var(--main-font);
-    font-size: min(15vw, 120px);
-    color: var(--main-color);
-    margin: 1vw 0 0 0;
+#logo {
+    margin: 1vw 0 0.5vw 0;
+    height: 25vw;
+    width: 30vw;
 }
 
 #subtitle {
