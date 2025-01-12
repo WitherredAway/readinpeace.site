@@ -1,11 +1,11 @@
 :root {
-    --main-color: #ffbd59;
-    --main-font: oddval;
+    --primary-color: #FAE76A;
+    --secondary-color: #5a77ff;
 }
 
 @font-face {
-    font-family: "oddval";
-    src: url(fonts/oddval-extrabold.otf);
+    font-family: "main-font";
+    src: url(fonts/Mountains_of_Christmas/MountainsofChristmas-Bold.ttf);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #5a77ff;
+    background-color: var(--secondary-color);
 }
 
 #main {
@@ -27,16 +27,10 @@ body {
 }
 
 #subtitle {
-    font-family: var(--main-font);
-    font-size: min(5vw, 40px);
-    color: #31439d;
+    font-family: main-font;
+    font-size: min(5vw, 60px);
+    color: var(--primary-color);
     margin: 0;
-}
-
-#subtitle-bg {
-    border-radius: 30px;
-    background-color: var(--main-color);
-    width: min(45vw, 500px);
 }
 
 #subtitle-bg-div {
@@ -45,7 +39,7 @@ body {
 }
 
 #text {
-    font-family: monospace;
+    font-family: main-font;
     font-size: 10vw;
     color: white;
     margin: 5vw;
