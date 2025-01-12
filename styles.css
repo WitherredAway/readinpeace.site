@@ -1,0 +1,48 @@
+:root {
+    --main-color: #ffbd59;
+    --main-font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #5a77ff;
+}
+
+#main {
+    text-align: center;
+}
+
+#title {
+    font-family: var(--main-font);
+    font-size: min(15vw, 120px);
+    color: var(--main-color);
+    margin: 1vw 0 0 0;
+}
+
+#subtitle {
+    font-family: var(--main-font);
+    font-size: min(5vw, 40px);
+    color: #31439d;
+    margin: 0;
+}
+
+#subtitle-bg {
+    border-radius: 30px;
+    background-color: var(--main-color);
+    width: min(35vw, 500px);
+}
+
+#subtitle-bg-div {
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    font-family: monospace;
+    font-size: 10vw;
+    color: white;
+    margin: 5vw;
+}
