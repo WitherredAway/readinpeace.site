@@ -1,6 +1,11 @@
 :root {
     --main-color: #ffbd59;
-    --main-font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    --main-font: oddval;
+}
+
+@font-face {
+    font-family: "oddval";
+    src: url(fonts/oddval-extrabold.otf);
 }
 
 body {
@@ -32,7 +37,7 @@ body {
 #subtitle-bg {
     border-radius: 30px;
     background-color: var(--main-color);
-    width: min(35vw, 500px);
+    width: min(45vw, 500px);
 }
 
 #subtitle-bg-div {
